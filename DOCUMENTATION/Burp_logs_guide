@@ -1,0 +1,171 @@
+# Burp Suite Logs Guide
+
+## Overview
+
+Burp Suite logs are used to monitor, capture, analyze, and record HTTP/HTTPS requests and responses between a client and a web server during web application security testing. Logs help penetration testers identify vulnerabilities, track attack attempts, and analyze application behavior.
+
+---
+
+# Types of Burp Suite Logs
+
+## 1. Proxy HTTP History
+
+The HTTP History log records all requests and responses passing through Burp Proxy.
+
+### Purpose
+
+* Monitor website traffic
+* Analyze parameters and headers
+* Identify vulnerabilities
+* Track user actions
+
+### Information Included
+
+* Host and IP address
+* Request method (GET, POST)
+* Status codes
+* Content type
+* Request/response length
+* Cookies and headers
+
+---
+
+## 2. Target Site Map Logs
+
+The Site Map stores discovered pages, directories, APIs, and application content.
+
+### Purpose
+
+* Map application structure
+* Identify hidden endpoints
+* Analyze attack surface
+
+### Information Included
+
+* URLs and directories
+* Parameters
+* Scripts and APIs
+* Application files
+
+---
+
+## 3. Scanner Logs
+
+Scanner logs record automated vulnerability scanning activities.
+
+### Purpose
+
+* Detect security vulnerabilities
+* Generate issue reports
+* Track scan progress
+
+### Common Findings
+
+* SQL Injection
+* Cross-Site Scripting (XSS)
+* CSRF vulnerabilities
+* Security misconfigurations
+
+---
+
+## 4. Repeater Logs
+
+Repeater logs store manually modified and repeated HTTP requests.
+
+### Purpose
+
+* Test payloads manually
+* Modify requests and parameters
+* Validate vulnerabilities
+
+### Activities
+
+* Parameter manipulation
+* Authentication testing
+* Input validation testing
+
+---
+
+## 5. Intruder Attack Logs
+
+Intruder logs record automated attack attempts using payloads.
+
+### Purpose
+
+* Brute-force testing
+* Fuzzing
+* Parameter testing
+* Enumeration attacks
+
+### Information Included
+
+* Payload positions
+* Request count
+* Response length
+* Status codes
+
+---
+
+## 6. Sequencer Logs
+
+Sequencer logs analyze randomness and predictability of tokens.
+
+### Purpose
+
+* Test session token security
+* Analyze entropy levels
+* Detect weak session management
+
+---
+
+## 7. Collaborator Logs
+
+Collaborator logs record external interactions triggered during testing.
+
+### Purpose
+
+* Detect SSRF vulnerabilities
+* Identify Blind XSS
+* Monitor DNS/HTTP interactions
+
+---
+
+# Important Log Components
+
+| Component    | Description                   |
+| ------------ | ----------------------------- |
+| Request      | Client request sent to server |
+| Response     | Server reply to client        |
+| Headers      | Metadata information          |
+| Parameters   | User input values             |
+| Cookies      | Session management data       |
+| Status Codes | HTTP response codes           |
+| Payloads     | Attack data used in testing   |
+
+---
+
+# Common HTTP Status Codes in Logs
+
+| Code    | Meaning               |
+| ------- | --------------------- |
+| 200     | Successful request    |
+| 301/302 | Redirection           |
+| 403     | Forbidden access      |
+| 404     | Page not found        |
+| 500     | Internal server error |
+
+---
+
+# Importance of Burp Suite Logs
+
+* Helps identify vulnerabilities
+* Tracks attack behavior
+* Assists in debugging web applications
+* Provides evidence during penetration testing
+* Improves web application security analysis
+
+---
+
+# Conclusion
+
+Burp Suite logs are essential for monitoring, analyzing, and documenting web application testing activities. Proper understanding of logs helps penetration testers efficiently identify security weaknesses and improve application security.
