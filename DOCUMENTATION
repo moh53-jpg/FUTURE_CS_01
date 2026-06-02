@@ -1,1 +1,58 @@
 
+METHODOLOGY
+1. Testing Methodology
+
+Penetration Testing Methodology is a structured approach used by security professionals to identify, analyze, and exploit vulnerabilities in systems, networks, or applications. It ensures testing is performed systematically, ethically, and effectively to evaluate the security posture of an organization.
+
+2. Overview
+
+Penetration Testing, also known as Ethical Hacking, is the process of simulating real-world cyberattacks to identify security weaknesses before malicious attackers can exploit them. The main objective is to improve security controls, protect sensitive data, and reduce cybersecurity risks.
+
+3. Testing Framework
+
+A Testing Framework provides standardized guidelines, procedures, and best practices for conducting penetration testing activities. Common penetration testing frameworks include:
+
+PTES (Penetration Testing Execution Standard)
+OSSTMM (Open Source Security Testing Methodology Manual)
+NIST Cybersecurity Framework
+OWASP Testing Guide
+ISSAF (Information Systems Security Assessment Framework)
+
+These frameworks help ensure consistency, accuracy, and professionalism during security assessments.
+
+4. Testing Phases
+1. Planning and Scope Definition
+
+Define objectives, targets, permissions, and testing limitations before starting the assessment.
+
+2. Reconnaissance and Information Gathering
+
+Collect information about the target systems, domains, users, and network infrastructure.
+
+3. Scanning and Enumeration
+
+Identify open ports, active services, vulnerabilities, and system details.
+
+4. Vulnerability Assessment
+
+Analyze identified weaknesses and determine potential attack vectors.
+
+5. Exploitation
+
+Attempt to exploit vulnerabilities to gain unauthorized access to systems or applications.
+
+6. Privilege Escalation
+
+Increase access rights to administrative or root-level privileges.
+
+7. Post-Exploitation and Maintaining Access
+
+Assess the impact of the compromise and evaluate persistence mechanisms.
+
+8. Reporting and Documentation
+
+Prepare a detailed report containing findings, risk levels, evidence, and remediation recommendations.
+
+9. Remediation and Retesting
+
+Verify that identified vulnerabilities have been fixed successfully after remediation.
